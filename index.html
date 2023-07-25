@@ -26,6 +26,30 @@
         .font-lato {
             font-family: 'Lato', sans-serif;
         }
+
+        #slide1 {
+            background-image: url("./images/banner1.png");
+            background-position: center;
+            background-size: cover;
+        }
+        #slide2 
+        {
+            background-image: url("./images/banner2.png");
+            background-position: center;
+            background-size: cover;
+        }
+        #slide3 
+        {
+            background-image: url("./images/banner3.png");
+            background-position: center;
+            background-size: cover;
+        }
+        #slide4 
+        {
+            background-image: url("./images/banner4.png");
+            background-position: center;
+            background-size: cover;
+        }
     </style>
 
 </head>
@@ -58,9 +82,9 @@
                 <div class="navbar-end">
                     <input type="text" placeholder="Search"
                         class="hidden sm:block input input-bordered w-24 md:w-auto rounded-[60px]" />
-                        <i class="hidden sm:block fa-solid fa-magnifying-glass relative right-[35px]"></i>
+                    <i class="hidden sm:block fa-solid fa-magnifying-glass relative right-[35px]"></i>
 
-                        <div class="dropdown">
+                    <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -85,11 +109,102 @@
         <!-- navbar ends -->
 
 
-        
+
 
 
         <!-- banner section starts -->
-        <section class="banner">
+        <section class="container mx-auto md:container md:mx-auto banner mt-16 ">
+
+            <!-- slide starts -->
+            <div class="carousel w-full  h-[400px]">
+
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full  bg-[#0000] opacity-80">
+
+                    <div class=" flex justify-center items-center mx-auto text-center">
+
+                        <div class="space-y-5">
+                            <h1 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+                            <p class="text-white text-5 font-medium">We supply highly quality organic products</p>
+                            <button class="btn btn-primary border-0 bg-[#F85559] text-white text-5 font-extrabold">Shop
+                                Now</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full  bg-[#0000] opacity-80">
+
+                    <div class=" flex justify-center items-center mx-auto text-center">
+
+                        <div class="space-y-5">
+                            <h1 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+                            <p class="text-white text-5 font-medium">We supply highly quality organic products</p>
+                            <button class="btn btn-primary border-0 bg-[#F85559] text-white text-5 font-extrabold">Shop
+                                Now</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full  bg-[#0000] opacity-80">
+
+                    <div class=" flex justify-center items-center mx-auto text-center">
+
+                        <div class="space-y-5">
+                            <h1 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+                            <p class="text-white text-5 font-medium">We supply highly quality organic products</p>
+                            <button class="btn btn-primary border-0 bg-[#F85559] text-white text-5 font-extrabold">Shop
+                                Now</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full  bg-[#0000] opacity-80">
+
+                    <div class=" flex justify-center items-center mx-auto text-center">
+
+                        <div class="space-y-5">
+                            <h1 class="text-7xl font-extrabold text-white">Exotic tastes at your <br> doorstep</h1>
+                            <p class="text-white text-5 font-medium">We supply highly quality organic products</p>
+                            <button class="btn btn-primary border-0 bg-[#F85559] text-white text-5 font-extrabold">Shop
+                                Now</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+
+               
+
+        
+            </div>
+
+            <!-- slide ends -->
 
         </section>
         <!-- banner section ends -->
